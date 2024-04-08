@@ -1,0 +1,57 @@
+.active {
+    background-color: rgb(9, 9, 182);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202424;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#career {
+    margin-right: 5rem;
+    border: 1px;
+    border-style: solid;
+    border-color: #E36387;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+nav ul li a:not(.active):hover {
+    background-color: #E36387;
+}
+
+@media (max-width:393px) {
+    .toplinks {
+        display: none;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    header {
+        flex-direction: column;
+        align-items: start;
+    }
+}

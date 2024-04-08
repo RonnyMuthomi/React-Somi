@@ -1,0 +1,85 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+body.open-modal {
+    overflow-y: hidden;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+header .title {
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.buttons {
+    margin: 1.5rem;
+    padding: 5px;
+    border-style: none;
+}
+
+#login {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    width: 5rem;
+    font-family: sans-serif;
+    background-color: #F43886;
+    color: #fff;
+}
+
+#register {
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    width: 6rem;
+    font-family: sans-serif;
+    background-color: #F43886;
+    color: #fff;
+}
+
+#login:hover,
+#register:hover {
+    color: #fff;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+
+/* Register modal*/
+
+.openmodal {
+    width: 30rem;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+
+/*Login modal*/
+
+.loginmodal {
+    width: 30rem;
+    height: 60vh;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.subumbua {
+    display: flex;
+}

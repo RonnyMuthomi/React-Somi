@@ -1,0 +1,26 @@
+#email2,
+#pass3 {
+    width: 27rem;
+}
+
+#loginbtn {
+    width: 27rem;
+    background-color: orange;
+    color: #fefefe;
+    border-radius: 0.5rem;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-color: none;
+    border-style: none;
+}
+
+#for {
+    color: #F3950D;
+    text-decoration: none;
+}
+
+#SiGN {
+    color: #F3950D;
+    text-decoration: none;
+}
